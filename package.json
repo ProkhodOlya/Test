@@ -4,6 +4,9 @@
   "description": "test react",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
+    "start": "webpack ./src/index.js ./public/bundle.js",
+    "lint": "eslint ./src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/ProkhodOlya/Test/issues"
   },
-  "homepage": "https://github.com/ProkhodOlya/Test#readme"
+  "homepage": "https://github.com/ProkhodOlya/Test#readme",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "webpack": "^1.14.0"
+  }
 }
