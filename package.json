@@ -1,0 +1,22 @@
+{
+  "name": "test-proj",
+  "version": "1.0.0",
+  "description": "test react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProkhodOlya/Test.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "olla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ProkhodOlya/Test/issues"
+  },
+  "homepage": "https://github.com/ProkhodOlya/Test#readme"
+}
